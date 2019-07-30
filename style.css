@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    height:100vh;
+}
+
+.itemheader{
+    background-color: aquamarine;
+    border:0.1em;
+    border-style: solid;
+    box-sizing: border-box;
+    height:3em;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1em;
+}
+
+.weekdays{
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.weekdays div{
+    padding:0.2em;
+    width: 150px;
+    height:130px;
+    margin: 5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: bisque;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+}
+
+.days #firstrow{
+    display:flex;
+    flex-direction: row; 
+}
+
+#firstrow div{
+    padding: 0.2em;
+    width:150px;
+    height:130px;
+    margin:5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: rgb(200, 148, 248);
+}
+
+.days #secondrow{
+    display:flex;
+    flex-direction: row; 
+}
+
+#secondrow div{
+    padding: 0.2em;
+    width:150px;
+    height:130px;
+    margin:5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: rgb(227, 205, 247);
+}
+.days #thirdrow{
+    display:flex;
+    flex-direction: row;
+}
+
+#thirdrow div{
+    padding: 0.2em;
+    width:150px;
+    height:130px;
+    margin:5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: rgb(200, 148, 248);
+}
+.days #fourthrow{
+    display:flex;
+    flex-direction: row;    
+}
+
+#fourthrow div{
+    padding: 0.2em;
+    width:150px;
+    height:130px;
+    margin:5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: rgb(227, 205, 247);
+}
+
+.days #fifthrow{
+    display:flex;
+    flex-direction: row;
+}
+
+#fifthrow div{
+    padding: 0.2em;
+    width:150px;
+    height:130px;
+    margin:5px 5px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 130px;
+    background-color: rgb(200, 148, 248);
+}
